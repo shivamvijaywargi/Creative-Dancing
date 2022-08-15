@@ -1,6 +1,6 @@
 ![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML%20&%20CSS-blue?style=for-the-badge)
 ![Time taken](https://img.shields.io/badge/Time%20taken-03H%3A08M-tomato?style=for-the-badge&logo=Clockify)
-[![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://fancy-licorice-9aedd5.netlify.app/)
+[![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://sprightly-sprinkles-314290.netlify.app/)
 
 # Creative Dancing
 

@@ -37,6 +37,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  background-color: #f5f2f0;
   font-family: Roboto, sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -270,5 +271,89 @@ select {
 @media (min-width: 1450px) {
   .hero__heading {
     margin-left: 33.33%;
+  }
+}
+
+.bottom__left {
+  position: relative;
+}
+
+.bottom__left__item {
+  color: rgb(126, 126, 126);
+  font-size: 1.3rem;
+}
+
+.bottom__left__item-active {
+  color: #333333;
+}
+
+.bottom__left__abs {
+  border: 1px solid #333;
+  position: absolute;
+  /* width: 0.1px; */
+  height: 9rem;
+  color: #333333;
+  top: 1.1rem;
+  left: 1.54rem;
+}
+
+.bottom__middle__text,
+.bottom__middle__img {
+  margin-left: 0.5rem;
+}
+
+.bottom__right__arrow {
+  display: none;
+}
+
+@media (min-width: 425px) {
+  .bottom {
+    margin-top: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 50%;
+    margin-top: 4rem;
+  }
+
+  .bottom__middle {
+    width: 18rem;
+  }
+
+  .bottom__left__item {
+    margin-bottom: 2rem;
+  }
+
+  .bottom__left__abs {
+    height: 18rem;
+    top: 1.75rem;
+    left: 1.54rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bottom {
+    margin-left: 42%;
+  }
+
+  .bottom__right {
+    align-self: flex-end;
+  }
+
+  .bottom__right__arrow {
+    display: block;
+  }
+}
+
+@media (min-width: 1450px) {
+  .bottom {
+    justify-content: space-evenly;
+
+    margin-left: 25%;
   }
 }
